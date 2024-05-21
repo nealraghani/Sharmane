@@ -73,29 +73,6 @@ function intro()  {
 
 
     }
-
-
-     // this could be keyboard events for a specific scene
-    // this.keyPressed = function() {
-    //
-    //
-    // }
-
-    // this.mousePressed = function()
-    // {
-    //     if (snd1.isPlaying()) {
-
-    //         snd1.pause(); // .play() will resume from .pause() position
-
-    //     } else {
-    //         snd1.play();
-
-    //     }
-
-
-
-    //     this.sceneManager.showNextScene();
-    // }
 }
 
 ///////////////////////  2  ////////////////////////
@@ -441,11 +418,15 @@ function story5() {
       textSize(29);
       // fill(200,0,0);
 
-      // push();
+      //click to go to next scene
+      push();
       // fill("yellow");
       // noStroke();
-      // rect(20, 20, 50, 40, 20);
-      // pop();
+      // rect(400, 350, 500, 200, 0);
+      if(mouseX >= 150 && mouseX <= 650 && mouseY >= 250 && mouseY <= 450 && mouseIsPressed == true){
+        mgr.showScene( story6 );
+      }
+      pop();
 
       push();
       image(soundicon, 20, 10, 50, 50);
@@ -493,11 +474,15 @@ function story6() {
       textSize(29);
       // fill(200,0,0);
 
-      // push();
+      //click to go to next scene
+      push();
       // fill("yellow");
       // noStroke();
-      // rect(20, 20, 50, 40, 20);
-      // pop();
+      // rect(300, 200, 200, 500, 0);
+      if(mouseX >= 200 && mouseX <= 400 && mouseY >= -50 && mouseY <= 450 && mouseIsPressed == true){
+        mgr.showScene( story7 );
+      }
+      pop();
 
       push();
       image(soundicon, 20, 10, 50, 50);
@@ -545,11 +530,15 @@ function story7() {
       textSize(29);
       // fill(200,0,0);
 
+      //click to go to next scene
       // push();
       // fill("yellow");
       // noStroke();
-      // rect(20, 20, 50, 40, 20);
-      // pop();
+      // rect(500, 200, 400, 500, 0);
+      if(mouseX >= 300 && mouseX <= 700 && mouseY >= -50 && mouseY <= 450 && mouseIsPressed == true){
+        mgr.showScene( story8 );
+      }
+      pop();
 
       push();
       image(soundicon, 20, 10, 50, 50);
@@ -597,11 +586,15 @@ function story8() {
       textSize(29);
       // fill(200,0,0);
 
-      // push();
+      //click to go to next scene
+      push();
       // fill("yellow");
       // noStroke();
-      // rect(20, 20, 50, 40, 20);
-      // pop();
+      // rect(450, 250, 200, 200, 0);
+      if(mouseX >= 350 && mouseX <= 550 && mouseY >= 150 && mouseY <= 350 && mouseIsPressed == true){
+        mgr.showScene( story9 );
+      }
+      pop();
 
       push();
       image(soundicon, 20, 10, 50, 50);
@@ -649,11 +642,15 @@ function story9() {
       textSize(29);
       // fill(200,0,0);
 
-      // push();
+      //click to go to next scene
+      push();
       // fill("yellow");
       // noStroke();
-      // rect(20, 20, 50, 40, 20);
-      // pop();
+      // rect(900, 100, 300, 500, 0);
+      if(mouseX >= 750 && mouseX <= 1050 && mouseY >= -150 && mouseY <= 350 && mouseIsPressed == true){
+        mgr.showScene( story10 );
+      }
+      pop();
 
       push();
       image(soundicon, 20, 10, 50, 50);
@@ -701,11 +698,15 @@ function story10() {
       textSize(29);
       // fill(200,0,0);
 
-      // push();
+      //click to go to next scene
+      push();
       // fill("yellow");
       // noStroke();
-      // rect(20, 20, 50, 40, 20);
-      // pop();
+      // rect(900, 100, 300, 500, 0);
+      if(mouseX >= 750 && mouseX <= 1050 && mouseY >= -150 && mouseY <= 350 && mouseIsPressed == true){
+        mgr.showScene( story11 );
+      }
+      pop();
 
       push();
       image(soundicon, 20, 10, 50, 50);
@@ -753,11 +754,15 @@ function story11() {
       textSize(29);
       // fill(200,0,0);
 
-      // push();
+      //click to go to next scene
+      push();
       // fill("yellow");
       // noStroke();
-      // rect(20, 20, 50, 40, 20);
-      // pop();
+      // rect(1080, 20, 310, 400, 0);
+      if(mouseX >= 925 && mouseX <= 1235 && mouseY >= -180 && mouseY <= 220 && mouseIsPressed == true){
+        mgr.showScene( story12 );
+      }
+      pop();
 
       push();
       image(soundicon, 20, 10, 50, 50);
@@ -805,11 +810,15 @@ function story12() {
       textSize(29);
       // fill(200,0,0);
 
-      // push();
+      //click to go to next scene
+      push();
       // fill("yellow");
       // noStroke();
-      // rect(20, 20, 50, 40, 20);
-      // pop();
+      // rect(100, 200, 900, 200, 0);
+      if(mouseX >= -350 && mouseX <= 550 && mouseY >= 100 && mouseY <= 300 && mouseIsPressed == true){
+        mgr.showScene( story13 );
+      }
+      pop();
 
       push();
       image(soundicon, 20, 10, 50, 50);
@@ -857,11 +866,15 @@ function story13() {
       textSize(29);
       // fill(200,0,0);
 
-      // push();
+      //click to go to next scene
+      push();
       // fill("yellow");
       // noStroke();
-      // rect(20, 20, 50, 40, 20);
-      // pop();
+      // rect(850, 250, 500, 400, 0);
+      if(mouseX >= 600 && mouseX <= 1100 && mouseY >= 50 && mouseY <= 450 && mouseIsPressed == true){
+        mgr.showScene( intro );
+      }
+      pop();
 
       push();
       image(soundicon, 20, 10, 50, 50);

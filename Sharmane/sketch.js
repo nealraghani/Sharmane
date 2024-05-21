@@ -144,31 +144,31 @@ function keyPressed()
         case '':
             mgr.showScene( story4 );
             break;
-        case '7':
+        case '5':
             mgr.showScene( story5 );
             break;  
-        case '8':
+        case '':
             mgr.showScene( story6 );
             break; 
-        case '9':
+        case '':
             mgr.showScene( story7 );
             break;  
-        case '0':
+        case '':
             mgr.showScene( story8 );
             break;
-        case 'a':
+        case '':
             mgr.showScene( story9 );
             break; 
-        case 'b':
+        case '':
             mgr.showScene( story10 );
             break; 
-        case 'c':
+        case '':
             mgr.showScene( story11 );
             break;
-        case 'd':
+        case '':
             mgr.showScene( story12 );
             break; 
-        case 'e':
+        case '':
             mgr.showScene( story13 );
             break;  
     }
